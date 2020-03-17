@@ -5,7 +5,7 @@ $(document).ready(function () {
 
   $(".scroll-to-about").click(function(){
     console.log("test");
-    abtpg.scrollIntoView();
+    window.scrollTo("#about-page");
   });
 
 });

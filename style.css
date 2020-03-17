@@ -1,0 +1,260 @@
+html{
+  height:100%;
+  width:100%;
+  margin: 0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+  /*background-color: /*#66cca3 #405aa5 #445EAE;*/
+  color: white;
+  display: flex;
+  justify-content:center;
+}
+body{
+  height:100%;
+  width:/*93.2%*/ 100%;
+  margin: 0;
+  padding:0;
+  /*background-color: #445EAE;*/
+}
+a{
+  color:white;
+}
+.placeholder{
+  display:flex;
+  width:100%;
+  height:10%;
+}
+.page{
+  display: flex;
+  width:100%;
+  height:100%;
+  flex-wrap:wrap;
+  flex-direction: row;
+}
+.navbar{
+  display:flex;
+  justify-content: flex-end;
+  font-size:25px;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat Subrayada', sans-serif;*/
+  font-weight: bold;
+  flex-wrap: wrap;
+  /*width:75%;*/
+  width:100%;
+  height:10%;
+  /**/
+  /*justify-content: flex-end;*/
+  justify-content: center;
+}
+.exlinks{
+  display: flex;
+  /*width:25%;*/
+  width:100%;
+  flex-direction: row;
+  justify-content: /*flex-start*/ center;
+  float:left;
+  margin-top: 25px;
+}
+.navments{
+  margin-top:25px;
+  /*margin-right:/*150px 36.234px;;*/
+  color: white;
+  /*
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  letter-spacing: 2px;*/
+}
+.navlinks{
+  text-decoration: none;
+  color: white;
+}
+.b-point{
+  color:black;
+  /*font-size:28px;
+  text-shadow: none;*/
+}
+/*.footer{
+  display:flex;
+  justify-content: flex-end;
+  font-size:25px;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat Subrayada', sans-serif;*/
+  /*font-weight: bold;
+  width:100%;
+  height:10%;
+} */
+.pages{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.welcome-page{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width:100%;
+  height:90%;
+  /*background-color: #445EAE;*/
+}
+.welcome-text{
+  color: white;
+  font-size:30px;
+  width:100%;
+  height:60%;
+  /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+}
+.welcome-box{
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  width:100%;
+}
+.welcome-top-text{
+  /*margin-left:60px;*/
+  /*font-family: 'Montserrat Subrayada', sans-serif;*/
+  margin: 0px;
+  position: fixed;
+  bottom: 50%;
+  font-size: 38px;
+}
+.welcome-bttm-text{
+  /*margin-left:120px;*/
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+.welcome-info{
+  /*margin:10px;*/
+  width:100%;
+  font-size: 27px;
+  text-align: center;
+  height: 30%;
+}
+.about-page{
+  width:100%;
+  /*height:90%*/
+  height: 85%;
+  /*background-color:#6CCEA6;*/
+  display: flex;
+  justify-content: center;
+}
+.about-content{
+  display: flex;
+  width:100%;
+  height:100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*flex-direction: column;*/
+}
+.about-container{
+  display: flex;
+  width:60%;
+  height: fit-content;
+  /*flex-wrap: wrap;*/
+  background-color:#66cca3;
+  margin:50px;
+  /*flex-direction: column;*/
+
+}
+.my-picture{
+  display: flex;
+  float: left;
+}
+.image-box{
+  display: flex;
+  float:left;
+}
+.my-desc{
+  float:left;
+  padding: /*1vw*/ 2vw;
+}
+.work-page{
+  width:100%;
+  height:85%;
+  /*background-color:#ED8B1F;*/
+  display: flex;
+  justify-content: center;
+}
+.work-container{
+  display: flex;
+  /*justify-content: center;*/
+  width: 60%;
+  height: fit-content;
+  /* flex-wrap: inherit; */
+  background-color: #ec8313;
+  margin-top: 50px;
+  /* white-space: nowrap; */
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  flex-direction: row;
+}
+.work-item{
+  display: flex;
+  height:100%;
+  padding:10px;
+  min-width: 300px;
+  /*min-width: 200px;*/
+  /*max-width: 200px;*/
+}
+.sample-image{
+   width: 100%;
+   height: auto;
+}
+.work-desc{
+  display: flex;
+  width:100%;
+  /*height:100%;*/
+  justify-content: space-evenly;
+  /*flex-direction: column;*/
+}
+.project-link{
+  display: flex;
+  margin-top:10px;
+  justify-content: flex-flex-start;
+}
+.contact-page{
+  width:100%;
+  height:90%;
+  background-color:#F1D40B;
+}
+@media screen and ( max-width: 1215px) {
+    .about-page{
+      height: 87%;
+    }
+    .about-container  {
+      flex-direction: column;
+      width: auto;
+      /*margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;*/
+      margin-left: 8px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+}
+@media screen and ( max-width: 1366px) {
+    .work-container {
+      width: 100%;
+      /*margin-left: 10px;
+      margin-right: 10px;
+      height: auto;*/
+      margin-left: 8px;
+      margin-right: 8px;
+      height: 93.5%;
+
+
+    }
+    .work-item {
+      min-width: 100%;
+      max-width: 100%;
+      /*padding-right: 0px;*/
+    }
+    .work-page{
+      height: 87%;
+    }/*
+    .sample-image{
+      max-width: 75%;
+    }*/
+}

@@ -35,6 +35,7 @@ a{
   display:flex;
   justify-content: flex-end;
   font-size:25px;
+  margin-bottom: 25px; /* Change to fix bottom element spacing*/
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Montserrat Subrayada', sans-serif;*/
   font-weight: bold;
@@ -136,6 +137,7 @@ a{
   height: 85%;
   /*background-color:#6CCEA6;*/
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .about-content{
@@ -173,6 +175,7 @@ a{
   height:85%;
   /*background-color:#ED8B1F;*/
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .work-container{
